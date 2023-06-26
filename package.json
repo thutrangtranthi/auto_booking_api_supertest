@@ -1,0 +1,21 @@
+{
+  "name": "api-testing-supertest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automation for APIs Testing using Supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js --reporter mochawesome"
+  },
+  "keywords": [
+    "supertest"
+  ],
+  "author": "Trang Tran",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}
